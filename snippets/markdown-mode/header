@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: header
+# key: header
+# --
+---
+layout:     post
+title:     ${1:标题}
+subtitle:   "${2:副标题}"
+header-img: ""
+categories: [${3:分类}]
+tags: [${4:标签}]
+
+---

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: 记账初始化
+# key: 记账初始化
+# --
+2017/05/07 * 卞斌${1:账户名}初始化
+  assets:bank:卞斌${2:账户名}  ¥${3:初始金额}
+  income:starting balances
+$0
