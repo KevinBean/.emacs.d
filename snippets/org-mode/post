@@ -1,0 +1,18 @@
+# key: post
+# name: post
+# expand-env: ((yas-indent-line (quote fixed)) (yas-wrap-around-region (quote nil)))`
+# --
+
+#+BEGIN_COMMENT
+  title: ${1:'(capitalize (replace-regexp-in-string "-\\|_" " " (file-name-base)))'}
+  slug: '(file-name-base)'
+  date: '(format-time-string "%Y-%m-%d %H:%M:%S UTC+08:00" (current-time))'
+  tag: $2
+  category:
+  link:
+  description:
+  type: text
+#+END_COMMENT
+
+*
+$0
