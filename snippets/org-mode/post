@@ -1,6 +1,6 @@
 # key: post
 # name: post
-# expand-env: ((yas-indent-line (quote fixed)) (yas-wrap-around-region (quote nil)))`
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 
 #+BEGIN_COMMENT

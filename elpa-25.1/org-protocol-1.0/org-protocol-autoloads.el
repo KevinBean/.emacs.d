@@ -1,10 +1,9 @@
-;;; org-drill-autoloads.el --- automatically extracted autoloads
+;;; org-protocol-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil nil ("org-drill-pkg.el" "org-drill.el") (22854
-;;;;;;  1411 0 0))
+;;;### (autoloads nil nil ("org-protocol.el") (22891 11994 0 0))
 
 ;;;***
 
@@ -13,4 +12,4 @@
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
 ;; End:
-;;; org-drill-autoloads.el ends here
+;;; org-protocol-autoloads.el ends here

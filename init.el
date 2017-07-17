@@ -27,6 +27,8 @@
 ;; Bootstrap config
 ;;----------------------------------------------------------------------------
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+(setq bianbin-file (expand-file-name "bianbin.el" user-emacs-directory))
+
 (require 'init-utils)
 (require 'init-site-lisp) ;; Must come before elpa, as it may provide package.el
 ;; Calls (package-initialize)
@@ -141,7 +143,8 @@
 ;;----------------------------------------------------------------------------
 (when (file-exists-p custom-file)
   (load custom-file))
-
+(when (file-exists-p bianbin-file)
+  (load bianbin-file))
 
 ;;----------------------------------------------------------------------------
 ;; Allow users to provide an optional "init-local" containing personal settings
