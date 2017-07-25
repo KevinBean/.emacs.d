@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "command-log-mode" "command-log-mode.el" (22875
-;;;;;;  26096 0 0))
+;;;### (autoloads nil "command-log-mode" "command-log-mode.el" (22900
+;;;;;;  58742 0 0))
 ;;; Generated autoloads from command-log-mode.el
 
 (autoload 'command-log-mode "command-log-mode" "\

@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "ox-pandoc" "ox-pandoc.el" (22891 11452 0 0))
+;;;### (autoloads nil "ox-pandoc" "ox-pandoc.el" (22903 30277 0 0))
 ;;; Generated autoloads from ox-pandoc.el
 
 (autoload 'org-pandoc-export-to-asciidoc "ox-pandoc" "\
